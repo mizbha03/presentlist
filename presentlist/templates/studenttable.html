@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>studenttable</title>
+</head>
+<body>
+    <h1>view student name</h1>
+    <table border="2">
+        <tr>
+            <td>id</td>
+            <td>Student</td>
+            <td>course</td>
+            
+
+              
+        </tr>
+        {% for i in a %}
+
+        <tr>
+            <td>{{i.id}}</td>
+            <td>{{i.student}}</td>
+            <td>{{i.course}}</td>
+            
+            
+        </tr>
+        {% endfor %}
+    </table>
+</center>
+    
+</body>
+</html>
